@@ -1,9 +1,9 @@
-#Codecademy Advanced JS Challenge
+# Codecademy Advanced JS Challenge
 
-##generateTags
+## generateTags
 
 
-###Scenario: the problem...
+### Scenario: the problem...
 
 We’re building a site for web designers to show their portfolio. The user can enter the URL of her works and our application builds a nice gallery. However, we’re missing a function to file all these submissions. We’d like to attach tags to them. Moreover, we’d like to automatically generate suggestions for tags that the user can select and add to the submission without having to type them herself.
 
@@ -16,7 +16,7 @@ Additionally, and *optionally*:
 * the function may remove words included in `aBlackListOfWords`, because we don't want to show them (curse words) or because they are not good as tags ("and", "in", "yes", "no"...);
 * the function may return only words that are at least `3` characters long, or accept an additional `minimumLength` parameter. Smaller words are not interesting and should be discarded.
 
-###...and the solution
+### ...and the solution
 
 We thought about different solutions and decided to design the function with one of the following interfaces:
 
@@ -43,7 +43,7 @@ where:
 
 We can implement which version we prefer. Obviously the ones with 3 or more parameters would be ideal.
 
-###Usage examples
+### Usage examples
 
 For the version returning only the words:
 
@@ -87,7 +87,7 @@ For the version returning the words and the corresponding frequencies:
 
 **NOTE**: This is just an example of the possible output: feel free to use a different structure than a bi-dimensional array!
 
-###For extra credit:
+### For extra credit:
 
 Here's a list of additional features that would make our function even more useful. Feel free to give them a try if you need something more challenging:
 
@@ -109,13 +109,13 @@ Here's a list of additional features that would make our function even more usef
 
 When you have a function that works satisfyingly, you might also want to implement a prototype of the user interface that analyzes the user web pages, calls the function to extract the tags, show them in the document and allow the user to select them and/or enter additional ones.
 
-###Getting Started
+### Getting Started
 
 Here’s a little something to get started. There are two big strings of HTML source code, one from Codecademy Labs and one from the Android website, source included to do your tests; but once you get your code working with them, test it with other web pages as well.
 
 [template.js](template.js)
 
-###Summary
+### Summary
 
 Let's review what the function should do:
 
@@ -123,7 +123,7 @@ Let's review what the function should do:
 * In the hardest case: accept a first parameter, a string of text representing HTML code, and many other optional arguments representing constraints on the output (max number of words to return, minimum length, forbidden words, threshold on frequency...) as described above. Strip all the HTML tags and return a list of words (ordered from the most frequent to the least frequent) along with their corresponding frequency. Also: create a web page that uses the function.
 * Feel free to solve a case that is harder, easier or intermediate between these two extremes.
 
-###Your Solution
+### Your Solution
 
 Post your solution on Codecademy. If you want to submit it here, create a new file (this will automatically fork the repo) and issue a pull request when you're done. Use your nickname as the file/folder name, so that your code doesn't overwrite anyone's solution.
 
